@@ -7,7 +7,7 @@ repositories {
 }
 
 ext {
-    selenideVersion = "6.12.4"
+    selenideVersion = "6.14.0"
     junitVersion = "5.9.2"
 }
 
