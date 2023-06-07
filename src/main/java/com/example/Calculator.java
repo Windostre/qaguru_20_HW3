@@ -1,4 +1,4 @@
-package com.demoqa;
+package com.example;
 
 public class Calculator {
     public int sum(int a, int b) {

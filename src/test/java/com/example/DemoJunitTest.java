@@ -1,4 +1,4 @@
-package com.demoqa;
+package com.example;
 
 import org.junit.jupiter.api.*;
 
@@ -26,7 +26,6 @@ public class DemoJunitTest {
         System.out.println("    #### @AfterEach");
         calc = new Calculator();
     }
-
 
     @Test
     void firstTest() {
