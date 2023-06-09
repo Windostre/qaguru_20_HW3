@@ -42,7 +42,6 @@ public class PracticeFormTests {
         $x("//div[@id='state']//input").setValue("NCR").pressEnter();
         $x("//div[@id='city']//input").setValue("Delhi").pressEnter();
         $("#submit").click();
-        //todo asserts
         $(".modal-content").should(Condition.appear);
         $x("//td[text()='Student Name']//following-sibling::td").shouldHave(Condition.text("Василиса Премудрая"));
         $x("//td[text()='Student Email']//following-sibling::td").shouldHave(Condition.text("pretty_vasya@mail.com"));
